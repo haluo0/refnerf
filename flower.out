@@ -1,0 +1,301 @@
+Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+Loading model from: /clusterdata/uqwxiang/.local/lib/python3.7/site-packages/lpips/weights/v0.1/alex.pth
+Setting up [LPIPS] perceptual loss: trunk [vgg], v[0.1], spatial [off]
+Loading model from: /clusterdata/uqwxiang/.local/lib/python3.7/site-packages/lpips/weights/v0.1/vgg.pth
+outputs will be saved to /scratch/jcu/ai_group/xsc_data/fine/flower/pre/pretraining
+training dataset: llff_test
+loading ['flower'] for train
+loading ['flower'] for validation
+_____________准备加载_________________
+Reloading from /scratch/jcu/ai_group/xsc_data/data/tex228/pre/pretraining/model_240000.pth, starting at step=240000
+saving tensorboard files to /scratch/jcu/ai_group/xsc_data/fine/flower/log
+pretraining Epoch: 0  step: 241000  lr: 0.000100 loss_coarse: 0.001750 fine_loss: 0.001684 l_tex: 0.001699 coarse-p: 27.566780 fine-p: 27.733907 tex-p: 27.694256
+each iter time 0.62693 seconds
+pretraining Epoch: 0  step: 242000  lr: 0.000100 loss_coarse: 0.002325 fine_loss: 0.002246 l_tex: 0.002354 coarse-p: 26.334451 fine-p: 26.483992 tex-p: 26.280979
+each iter time 0.62063 seconds
+pretraining Epoch: 0  step: 243000  lr: 0.000100 loss_coarse: 0.000391 fine_loss: 0.000419 l_tex: 0.000415 coarse-p: 34.064776 fine-p: 33.770678 tex-p: 33.812048
+each iter time 0.61646 seconds
+val_________________________psnr_coarse_27.110497______psnr_fine27.307881__psnr_tex_tex_27.324597_____time_77.745395
+pretraining Epoch: 0  step: 244000  lr: 0.000100 loss_coarse: 0.000540 fine_loss: 0.000596 l_tex: 0.000675 coarse-p: 32.666142 fine-p: 32.243420 tex-p: 31.702351
+each iter time 0.62356 seconds
+pretraining Epoch: 0  step: 245000  lr: 0.000100 loss_coarse: 0.000610 fine_loss: 0.000515 l_tex: 0.000517 coarse-p: 32.139581 fine-p: 32.869724 tex-p: 32.854921
+each iter time 0.62310 seconds
+Saving checkpoints at 245000 to /scratch/jcu/ai_group/xsc_data/fine/flower/pre/pretraining...
+pretraining Epoch: 0  step: 246000  lr: 0.000100 loss_coarse: 0.000572 fine_loss: 0.000550 l_tex: 0.000546 coarse-p: 32.415760 fine-p: 32.586659 tex-p: 32.617209
+each iter time 0.62164 seconds
+val_________________________psnr_coarse_27.014852______psnr_fine27.331472__psnr_tex_tex_27.352963_____time_76.987540
+pretraining Epoch: 0  step: 247000  lr: 0.000100 loss_coarse: 0.001435 fine_loss: 0.001377 l_tex: 0.001406 coarse-p: 28.427073 fine-p: 28.608121 tex-p: 28.516968
+each iter time 0.62352 seconds
+pretraining Epoch: 0  step: 248000  lr: 0.000100 loss_coarse: 0.001534 fine_loss: 0.001499 l_tex: 0.001533 coarse-p: 28.138970 fine-p: 28.240468 tex-p: 28.142870
+each iter time 0.62232 seconds
+pretraining Epoch: 0  step: 249000  lr: 0.000100 loss_coarse: 0.003441 fine_loss: 0.003257 l_tex: 0.003381 coarse-p: 24.631947 fine-p: 24.870666 tex-p: 24.708100
+each iter time 0.61810 seconds
+val_________________________psnr_coarse_26.816251______psnr_fine27.244352__psnr_tex_tex_27.259311_____time_75.432594
+pretraining Epoch: 0  step: 250000  lr: 0.000100 loss_coarse: 0.000675 fine_loss: 0.000699 l_tex: 0.000931 coarse-p: 31.698442 fine-p: 31.547584 tex-p: 30.304392
+each iter time 0.60305 seconds
+Saving checkpoints at 250000 to /scratch/jcu/ai_group/xsc_data/fine/flower/pre/pretraining...
+pretraining Epoch: 0  step: 251000  lr: 0.000100 loss_coarse: 0.000723 fine_loss: 0.000660 l_tex: 0.000704 coarse-p: 31.399800 fine-p: 31.798708 tex-p: 31.516551
+each iter time 0.59410 seconds
+pretraining Epoch: 0  step: 252000  lr: 0.000100 loss_coarse: 0.000424 fine_loss: 0.000440 l_tex: 0.000465 coarse-p: 33.711319 fine-p: 33.551401 tex-p: 33.316654
+each iter time 0.60363 seconds
+val_________________________psnr_coarse_26.932376______psnr_fine27.305655__psnr_tex_tex_27.324425_____time_75.432636
+pretraining Epoch: 0  step: 253000  lr: 0.000100 loss_coarse: 0.003522 fine_loss: 0.003296 l_tex: 0.003335 coarse-p: 24.530544 fine-p: 24.819421 tex-p: 24.767107
+each iter time 0.59941 seconds
+pretraining Epoch: 0  step: 254000  lr: 0.000100 loss_coarse: 0.000513 fine_loss: 0.000461 l_tex: 0.000471 coarse-p: 32.886802 fine-p: 33.356036 tex-p: 33.261228
+each iter time 0.59593 seconds
+pretraining Epoch: 0  step: 255000  lr: 0.000100 loss_coarse: 0.000811 fine_loss: 0.000819 l_tex: 0.000826 coarse-p: 30.904357 fine-p: 30.860589 tex-p: 30.825166
+each iter time 0.60502 seconds
+Saving checkpoints at 255000 to /scratch/jcu/ai_group/xsc_data/fine/flower/pre/pretraining...
+val_________________________psnr_coarse_27.052533______psnr_fine27.327400__psnr_tex_tex_27.382274_____time_75.211601
+pretraining Epoch: 0  step: 256000  lr: 0.000100 loss_coarse: 0.001192 fine_loss: 0.001128 l_tex: 0.001141 coarse-p: 29.233205 fine-p: 29.472493 tex-p: 29.424721
+each iter time 0.60437 seconds
+pretraining Epoch: 0  step: 257000  lr: 0.000100 loss_coarse: 0.001124 fine_loss: 0.000992 l_tex: 0.000993 coarse-p: 29.490213 fine-p: 30.029423 tex-p: 30.024960
+each iter time 0.60531 seconds
+pretraining Epoch: 0  step: 258000  lr: 0.000100 loss_coarse: 0.000681 fine_loss: 0.000678 l_tex: 0.000683 coarse-p: 31.665164 fine-p: 31.679766 tex-p: 31.647417
+each iter time 0.60412 seconds
+val_________________________psnr_coarse_27.056845______psnr_fine27.415196__psnr_tex_tex_27.447318_____time_74.927945
+pretraining Epoch: 0  step: 259000  lr: 0.000100 loss_coarse: 0.000475 fine_loss: 0.000499 l_tex: 0.000488 coarse-p: 33.228135 fine-p: 33.009989 tex-p: 33.108041
+each iter time 0.60127 seconds
+pretraining Epoch: 0  step: 260000  lr: 0.000100 loss_coarse: 0.003320 fine_loss: 0.003131 l_tex: 0.003112 coarse-p: 24.787481 fine-p: 25.042330 tex-p: 25.068833
+each iter time 0.60540 seconds
+Saving checkpoints at 260000 to /scratch/jcu/ai_group/xsc_data/fine/flower/pre/pretraining...
+pretraining Epoch: 0  step: 261000  lr: 0.000100 loss_coarse: 0.006060 fine_loss: 0.008045 l_tex: 0.011654 coarse-p: 22.174437 fine-p: 20.944404 tex-p: 19.334883
+each iter time 0.60475 seconds
+val_________________________psnr_coarse_27.274366______psnr_fine27.520420__psnr_tex_tex_27.547987_____time_75.032005
+pretraining Epoch: 0  step: 262000  lr: 0.000100 loss_coarse: 0.000598 fine_loss: 0.000664 l_tex: 0.000667 coarse-p: 32.222416 fine-p: 31.769755 tex-p: 31.751735
+each iter time 0.60185 seconds
+pretraining Epoch: 0  step: 263000  lr: 0.000100 loss_coarse: 0.001237 fine_loss: 0.001238 l_tex: 0.001264 coarse-p: 29.073556 fine-p: 29.068947 tex-p: 28.979298
+each iter time 0.60736 seconds
+pretraining Epoch: 0  step: 264000  lr: 0.000100 loss_coarse: 0.001120 fine_loss: 0.001060 l_tex: 0.001242 coarse-p: 29.505329 fine-p: 29.744038 tex-p: 29.057000
+each iter time 0.60160 seconds
+val_________________________psnr_coarse_27.132917______psnr_fine27.404367__psnr_tex_tex_27.453943_____time_74.853323
+pretraining Epoch: 0  step: 265000  lr: 0.000100 loss_coarse: 0.000853 fine_loss: 0.000758 l_tex: 0.000772 coarse-p: 30.687889 fine-p: 31.197882 tex-p: 31.115942
+each iter time 0.60330 seconds
+Saving checkpoints at 265000 to /scratch/jcu/ai_group/xsc_data/fine/flower/pre/pretraining...
+pretraining Epoch: 0  step: 266000  lr: 0.000100 loss_coarse: 0.000513 fine_loss: 0.000530 l_tex: 0.000540 coarse-p: 32.888801 fine-p: 32.747642 tex-p: 32.664985
+each iter time 0.61195 seconds
+pretraining Epoch: 0  step: 267000  lr: 0.000100 loss_coarse: 0.003812 fine_loss: 0.003526 l_tex: 0.003491 coarse-p: 24.186948 fine-p: 24.525596 tex-p: 24.569217
+each iter time 0.60835 seconds
+val_________________________psnr_coarse_27.224823______psnr_fine27.436399__psnr_tex_tex_27.471625_____time_74.972013
+pretraining Epoch: 0  step: 268000  lr: 0.000100 loss_coarse: 0.001564 fine_loss: 0.001688 l_tex: 0.001933 coarse-p: 28.053705 fine-p: 27.723942 tex-p: 27.135422
+each iter time 0.60502 seconds
+pretraining Epoch: 0  step: 269000  lr: 0.000100 loss_coarse: 0.000862 fine_loss: 0.000876 l_tex: 0.000895 coarse-p: 30.640949 fine-p: 30.570195 tex-p: 30.475537
+each iter time 0.60654 seconds
+pretraining Epoch: 0  step: 270000  lr: 0.000100 loss_coarse: 0.003202 fine_loss: 0.003424 l_tex: 0.005721 coarse-p: 24.944266 fine-p: 24.653909 tex-p: 22.424596
+each iter time 0.59700 seconds
+Saving checkpoints at 270000 to /scratch/jcu/ai_group/xsc_data/fine/flower/pre/pretraining...
+val_________________________psnr_coarse_27.326994______psnr_fine27.494734__psnr_tex_tex_27.527446_____time_74.965610
+pretraining Epoch: 0  step: 271000  lr: 0.000100 loss_coarse: 0.000722 fine_loss: 0.000808 l_tex: 0.001108 coarse-p: 31.411107 fine-p: 30.920688 tex-p: 29.551953
+each iter time 0.60750 seconds
+pretraining Epoch: 0  step: 272000  lr: 0.000100 loss_coarse: 0.001795 fine_loss: 0.001655 l_tex: 0.001716 coarse-p: 27.457314 fine-p: 27.809590 tex-p: 27.651067
+each iter time 0.60680 seconds
+pretraining Epoch: 0  step: 273000  lr: 0.000100 loss_coarse: 0.001293 fine_loss: 0.001228 l_tex: 0.001231 coarse-p: 28.879013 fine-p: 29.103836 tex-p: 29.093869
+each iter time 0.60589 seconds
+val_________________________psnr_coarse_27.312603______psnr_fine27.424750__psnr_tex_tex_27.505330_____time_74.982612
+pretraining Epoch: 0  step: 274000  lr: 0.000100 loss_coarse: 0.003559 fine_loss: 0.003506 l_tex: 0.006534 coarse-p: 24.485570 fine-p: 24.550880 tex-p: 21.847647
+each iter time 0.60387 seconds
+pretraining Epoch: 0  step: 275000  lr: 0.000100 loss_coarse: 0.001813 fine_loss: 0.001631 l_tex: 0.002873 coarse-p: 27.414087 fine-p: 27.871744 tex-p: 25.415430
+each iter time 0.60136 seconds
+Saving checkpoints at 275000 to /scratch/jcu/ai_group/xsc_data/fine/flower/pre/pretraining...
+pretraining Epoch: 0  step: 276000  lr: 0.000100 loss_coarse: 0.000733 fine_loss: 0.000765 l_tex: 0.001031 coarse-p: 31.344799 fine-p: 31.155364 tex-p: 29.864548
+each iter time 0.60306 seconds
+val_________________________psnr_coarse_27.278689______psnr_fine27.435031__psnr_tex_tex_27.483376_____time_74.917161
+pretraining Epoch: 0  step: 277000  lr: 0.000100 loss_coarse: 0.002343 fine_loss: 0.002578 l_tex: 0.004001 coarse-p: 26.301184 fine-p: 25.886170 tex-p: 23.977766
+each iter time 0.60946 seconds
+pretraining Epoch: 0  step: 278000  lr: 0.000100 loss_coarse: 0.001007 fine_loss: 0.000909 l_tex: 0.000928 coarse-p: 29.966805 fine-p: 30.411416 tex-p: 30.318190
+each iter time 0.60827 seconds
+pretraining Epoch: 0  step: 279000  lr: 0.000100 loss_coarse: 0.003346 fine_loss: 0.003588 l_tex: 0.013051 coarse-p: 24.753670 fine-p: 24.449793 tex-p: 18.843080
+each iter time 0.60147 seconds
+val_________________________psnr_coarse_27.248826______psnr_fine27.425587__psnr_tex_tex_27.456850_____time_74.937698
+pretraining Epoch: 0  step: 280000  lr: 0.000100 loss_coarse: 0.002300 fine_loss: 0.002082 l_tex: 0.002175 coarse-p: 26.380714 fine-p: 26.814090 tex-p: 26.623911
+each iter time 0.60229 seconds
+Saving checkpoints at 280000 to /scratch/jcu/ai_group/xsc_data/fine/flower/pre/pretraining...
+pretraining Epoch: 0  step: 281000  lr: 0.000100 loss_coarse: 0.002040 fine_loss: 0.001990 l_tex: 0.002710 coarse-p: 26.901288 fine-p: 27.009270 tex-p: 25.668195
+each iter time 0.59778 seconds
+pretraining Epoch: 0  step: 282000  lr: 0.000100 loss_coarse: 0.002036 fine_loss: 0.002062 l_tex: 0.002423 coarse-p: 26.910364 fine-p: 26.855779 tex-p: 26.154895
+each iter time 0.60641 seconds
+val_________________________psnr_coarse_27.230945______psnr_fine27.282066__psnr_tex_tex_27.343612_____time_74.946741
+pretraining Epoch: 0  step: 283000  lr: 0.000100 loss_coarse: 0.000617 fine_loss: 0.000644 l_tex: 0.000605 coarse-p: 32.087673 fine-p: 31.902190 tex-p: 32.173866
+each iter time 0.60810 seconds
+pretraining Epoch: 0  step: 284000  lr: 0.000100 loss_coarse: 0.001028 fine_loss: 0.001069 l_tex: 0.001943 coarse-p: 29.874758 fine-p: 29.705716 tex-p: 27.113895
+each iter time 0.60828 seconds
+pretraining Epoch: 0  step: 285000  lr: 0.000100 loss_coarse: 0.006868 fine_loss: 0.006454 l_tex: 0.006493 coarse-p: 21.630797 fine-p: 21.901295 tex-p: 21.874904
+each iter time 0.60692 seconds
+Saving checkpoints at 285000 to /scratch/jcu/ai_group/xsc_data/fine/flower/pre/pretraining...
+val_________________________psnr_coarse_27.253489______psnr_fine27.505605__psnr_tex_tex_27.537860_____time_74.932225
+pretraining Epoch: 0  step: 286000  lr: 0.000100 loss_coarse: 0.001419 fine_loss: 0.001354 l_tex: 0.001399 coarse-p: 28.477774 fine-p: 28.679077 tex-p: 28.538359
+each iter time 0.60002 seconds
+pretraining Epoch: 0  step: 287000  lr: 0.000100 loss_coarse: 0.002300 fine_loss: 0.002043 l_tex: 0.002184 coarse-p: 26.381055 fine-p: 26.894809 tex-p: 26.605570
+each iter time 0.60393 seconds
+pretraining Epoch: 0  step: 288000  lr: 0.000100 loss_coarse: 0.000661 fine_loss: 0.000537 l_tex: 0.000556 coarse-p: 31.788589 fine-p: 32.691454 tex-p: 32.543624
+each iter time 0.60535 seconds
+val_________________________psnr_coarse_27.257895______psnr_fine27.434943__psnr_tex_tex_27.484552_____time_74.821561
+pretraining Epoch: 0  step: 289000  lr: 0.000100 loss_coarse: 0.001510 fine_loss: 0.001421 l_tex: 0.001394 coarse-p: 28.206290 fine-p: 28.471627 tex-p: 28.554719
+each iter time 0.59624 seconds
+pretraining Epoch: 0  step: 290000  lr: 0.000050 loss_coarse: 0.001246 fine_loss: 0.001070 l_tex: 0.001056 coarse-p: 29.043024 fine-p: 29.703767 tex-p: 29.759073
+each iter time 0.59925 seconds
+Saving checkpoints at 290000 to /scratch/jcu/ai_group/xsc_data/fine/flower/pre/pretraining...
+pretraining Epoch: 0  step: 291000  lr: 0.000050 loss_coarse: 0.001608 fine_loss: 0.001501 l_tex: 0.001740 coarse-p: 27.935571 fine-p: 28.233426 tex-p: 27.592187
+each iter time 0.59348 seconds
+val_________________________psnr_coarse_27.391265______psnr_fine27.523721__psnr_tex_tex_27.574084_____time_74.805199
+pretraining Epoch: 0  step: 292000  lr: 0.000050 loss_coarse: 0.001196 fine_loss: 0.001136 l_tex: 0.001156 coarse-p: 29.220160 fine-p: 29.443209 tex-p: 29.367805
+each iter time 0.59060 seconds
+pretraining Epoch: 0  step: 293000  lr: 0.000050 loss_coarse: 0.001451 fine_loss: 0.001276 l_tex: 0.001256 coarse-p: 28.380625 fine-p: 28.936780 tex-p: 29.005349
+each iter time 0.59920 seconds
+pretraining Epoch: 0  step: 294000  lr: 0.000050 loss_coarse: 0.000640 fine_loss: 0.000582 l_tex: 0.000587 coarse-p: 31.929189 fine-p: 32.344678 tex-p: 32.303839
+each iter time 0.59602 seconds
+val_________________________psnr_coarse_27.366155______psnr_fine27.520767__psnr_tex_tex_27.557921_____time_74.800377
+pretraining Epoch: 0  step: 295000  lr: 0.000050 loss_coarse: 0.001274 fine_loss: 0.001253 l_tex: 0.001254 coarse-p: 28.945454 fine-p: 29.017382 tex-p: 29.014370
+each iter time 0.59830 seconds
+Saving checkpoints at 295000 to /scratch/jcu/ai_group/xsc_data/fine/flower/pre/pretraining...
+pretraining Epoch: 0  step: 296000  lr: 0.000050 loss_coarse: 0.001733 fine_loss: 0.002370 l_tex: 0.005062 coarse-p: 27.608589 fine-p: 26.250470 tex-p: 22.956134
+each iter time 0.59551 seconds
+pretraining Epoch: 0  step: 297000  lr: 0.000050 loss_coarse: 0.000482 fine_loss: 0.000481 l_tex: 0.000722 coarse-p: 33.159666 fine-p: 33.168860 tex-p: 31.411453
+each iter time 0.59047 seconds
+val_________________________psnr_coarse_27.386883______psnr_fine27.533678__psnr_tex_tex_27.574405_____time_74.800197
+pretraining Epoch: 0  step: 298000  lr: 0.000050 loss_coarse: 0.001808 fine_loss: 0.001873 l_tex: 0.003151 coarse-p: 27.424538 fine-p: 27.272105 tex-p: 25.013725
+each iter time 0.59679 seconds
+pretraining Epoch: 0  step: 299000  lr: 0.000050 loss_coarse: 0.000280 fine_loss: 0.000290 l_tex: 0.000357 coarse-p: 35.511792 fine-p: 35.366202 tex-p: 34.464911
+each iter time 0.59749 seconds
+pretraining Epoch: 0  step: 300000  lr: 0.000050 loss_coarse: 0.001919 fine_loss: 0.002361 l_tex: 0.011031 coarse-p: 27.167367 fine-p: 26.266867 tex-p: 19.573453
+each iter time 0.59329 seconds
+Saving checkpoints at 300000 to /scratch/jcu/ai_group/xsc_data/fine/flower/pre/pretraining...
+val_________________________psnr_coarse_27.392596______psnr_fine27.519696__psnr_tex_tex_27.569796_____time_74.728789
+pretraining Epoch: 0  step: 301000  lr: 0.000050 loss_coarse: 0.003157 fine_loss: 0.003154 l_tex: 0.003131 coarse-p: 25.005278 fine-p: 25.010252 tex-p: 25.041649
+each iter time 0.59230 seconds
+pretraining Epoch: 0  step: 302000  lr: 0.000050 loss_coarse: 0.000720 fine_loss: 0.000715 l_tex: 0.000739 coarse-p: 31.423181 fine-p: 31.453836 tex-p: 31.306440
+each iter time 0.59159 seconds
+pretraining Epoch: 0  step: 303000  lr: 0.000050 loss_coarse: 0.000945 fine_loss: 0.001030 l_tex: 0.001029 coarse-p: 30.240954 fine-p: 29.868502 tex-p: 29.869727
+each iter time 0.59455 seconds
+val_________________________psnr_coarse_27.372442______psnr_fine27.527272__psnr_tex_tex_27.568383_____time_74.777526
+pretraining Epoch: 0  step: 304000  lr: 0.000050 loss_coarse: 0.001546 fine_loss: 0.001477 l_tex: 0.001859 coarse-p: 28.105856 fine-p: 28.303146 tex-p: 27.305663
+each iter time 0.59937 seconds
+pretraining Epoch: 0  step: 305000  lr: 0.000050 loss_coarse: 0.000928 fine_loss: 0.000938 l_tex: 0.000928 coarse-p: 30.318773 fine-p: 30.274026 tex-p: 30.321183
+each iter time 0.59061 seconds
+Saving checkpoints at 305000 to /scratch/jcu/ai_group/xsc_data/fine/flower/pre/pretraining...
+pretraining Epoch: 0  step: 306000  lr: 0.000050 loss_coarse: 0.001849 fine_loss: 0.002096 l_tex: 0.005067 coarse-p: 27.327660 fine-p: 26.784019 tex-p: 22.951733
+each iter time 0.59451 seconds
+val_________________________psnr_coarse_27.389300______psnr_fine27.502311__psnr_tex_tex_27.529386_____time_74.772893
+pretraining Epoch: 0  step: 307000  lr: 0.000050 loss_coarse: 0.000737 fine_loss: 0.000759 l_tex: 0.000760 coarse-p: 31.320761 fine-p: 31.191245 tex-p: 31.188618
+each iter time 0.60342 seconds
+pretraining Epoch: 0  step: 308000  lr: 0.000050 loss_coarse: 0.000835 fine_loss: 0.000847 l_tex: 0.000828 coarse-p: 30.775766 fine-p: 30.717749 tex-p: 30.813805
+each iter time 0.59224 seconds
+pretraining Epoch: 0  step: 309000  lr: 0.000050 loss_coarse: 0.000836 fine_loss: 0.000806 l_tex: 0.000837 coarse-p: 30.774540 fine-p: 30.929841 tex-p: 30.766691
+each iter time 0.59240 seconds
+val_________________________psnr_coarse_27.460016______psnr_fine27.577534__psnr_tex_tex_27.627865_____time_74.742314
+pretraining Epoch: 0  step: 310000  lr: 0.000050 loss_coarse: 0.001466 fine_loss: 0.001432 l_tex: 0.012376 coarse-p: 28.336765 fine-p: 28.437113 tex-p: 19.073763
+each iter time 0.59226 seconds
+Saving checkpoints at 310000 to /scratch/jcu/ai_group/xsc_data/fine/flower/pre/pretraining...
+pretraining Epoch: 0  step: 311000  lr: 0.000050 loss_coarse: 0.000657 fine_loss: 0.000726 l_tex: 0.000976 coarse-p: 31.814987 fine-p: 31.385808 tex-p: 30.099648
+each iter time 0.59439 seconds
+pretraining Epoch: 0  step: 312000  lr: 0.000050 loss_coarse: 0.001012 fine_loss: 0.001034 l_tex: 0.001046 coarse-p: 29.942837 fine-p: 29.850490 tex-p: 29.800310
+each iter time 0.60094 seconds
+val_________________________psnr_coarse_27.363270______psnr_fine27.458629__psnr_tex_tex_27.478879_____time_74.824625
+pretraining Epoch: 0  step: 313000  lr: 0.000050 loss_coarse: 0.001101 fine_loss: 0.001033 l_tex: 0.001029 coarse-p: 29.578356 fine-p: 29.854978 tex-p: 29.873321
+each iter time 0.59310 seconds
+pretraining Epoch: 0  step: 314000  lr: 0.000050 loss_coarse: 0.004007 fine_loss: 0.003691 l_tex: 0.003865 coarse-p: 23.971031 fine-p: 24.327264 tex-p: 24.127398
+each iter time 0.59510 seconds
+pretraining Epoch: 0  step: 315000  lr: 0.000050 loss_coarse: 0.002235 fine_loss: 0.001969 l_tex: 0.001990 coarse-p: 26.505234 fine-p: 27.054659 tex-p: 27.009606
+each iter time 0.59602 seconds
+Saving checkpoints at 315000 to /scratch/jcu/ai_group/xsc_data/fine/flower/pre/pretraining...
+val_________________________psnr_coarse_27.418071______psnr_fine27.461836__psnr_tex_tex_27.489586_____time_74.853573
+pretraining Epoch: 0  step: 316000  lr: 0.000050 loss_coarse: 0.000685 fine_loss: 0.000619 l_tex: 0.000631 coarse-p: 31.637699 fine-p: 32.075467 tex-p: 31.990742
+each iter time 0.59840 seconds
+pretraining Epoch: 0  step: 317000  lr: 0.000050 loss_coarse: 0.001432 fine_loss: 0.001415 l_tex: 0.005166 coarse-p: 28.438656 fine-p: 28.490605 tex-p: 22.867333
+each iter time 0.59693 seconds
+pretraining Epoch: 0  step: 318000  lr: 0.000050 loss_coarse: 0.002394 fine_loss: 0.002248 l_tex: 0.002247 coarse-p: 26.207317 fine-p: 26.480762 tex-p: 26.481276
+each iter time 0.59727 seconds
+val_________________________psnr_coarse_27.447217______psnr_fine27.516469__psnr_tex_tex_27.543666_____time_74.778500
+pretraining Epoch: 0  step: 319000  lr: 0.000050 loss_coarse: 0.001755 fine_loss: 0.001580 l_tex: 0.002144 coarse-p: 27.555056 fine-p: 28.012025 tex-p: 26.686468
+each iter time 0.59687 seconds
+pretraining Epoch: 0  step: 320000  lr: 0.000050 loss_coarse: 0.001044 fine_loss: 0.000956 l_tex: 0.001322 coarse-p: 29.810079 fine-p: 30.189418 tex-p: 28.784653
+each iter time 0.60092 seconds
+Saving checkpoints at 320000 to /scratch/jcu/ai_group/xsc_data/fine/flower/pre/pretraining...
+pretraining Epoch: 0  step: 321000  lr: 0.000050 loss_coarse: 0.001901 fine_loss: 0.001835 l_tex: 0.018199 coarse-p: 27.208998 fine-p: 27.361712 tex-p: 17.399401
+each iter time 0.59663 seconds
+val_________________________psnr_coarse_27.481327______psnr_fine27.616883__psnr_tex_tex_27.658606_____time_74.751124
+pretraining Epoch: 0  step: 322000  lr: 0.000050 loss_coarse: 0.000725 fine_loss: 0.000666 l_tex: 0.000685 coarse-p: 31.389841 fine-p: 31.755990 tex-p: 31.638564
+each iter time 0.59691 seconds
+pretraining Epoch: 0  step: 323000  lr: 0.000050 loss_coarse: 0.001640 fine_loss: 0.001526 l_tex: 0.002737 coarse-p: 27.849298 fine-p: 28.160615 tex-p: 25.625982
+each iter time 0.59523 seconds
+pretraining Epoch: 0  step: 324000  lr: 0.000050 loss_coarse: 0.000311 fine_loss: 0.000321 l_tex: 0.000347 coarse-p: 35.060220 fine-p: 34.927610 tex-p: 34.587960
+each iter time 0.59034 seconds
+val_________________________psnr_coarse_27.519734______psnr_fine27.621471__psnr_tex_tex_27.653372_____time_74.759797
+pretraining Epoch: 0  step: 325000  lr: 0.000050 loss_coarse: 0.001524 fine_loss: 0.001457 l_tex: 0.002200 coarse-p: 28.168284 fine-p: 28.361769 tex-p: 26.573026
+each iter time 0.59623 seconds
+Saving checkpoints at 325000 to /scratch/jcu/ai_group/xsc_data/fine/flower/pre/pretraining...
+pretraining Epoch: 0  step: 326000  lr: 0.000050 loss_coarse: 0.000663 fine_loss: 0.000613 l_tex: 0.000642 coarse-p: 31.775242 fine-p: 32.118399 tex-p: 31.916342
+each iter time 0.59808 seconds
+pretraining Epoch: 0  step: 327000  lr: 0.000050 loss_coarse: 0.000572 fine_loss: 0.000517 l_tex: 0.000506 coarse-p: 32.421740 fine-p: 32.853595 tex-p: 32.946220
+each iter time 0.59621 seconds
+val_________________________psnr_coarse_27.476471______psnr_fine27.567291__psnr_tex_tex_27.592009_____time_74.726832
+pretraining Epoch: 0  step: 328000  lr: 0.000050 loss_coarse: 0.002772 fine_loss: 0.002637 l_tex: 0.002607 coarse-p: 25.569858 fine-p: 25.786868 tex-p: 25.837450
+each iter time 0.59532 seconds
+pretraining Epoch: 0  step: 329000  lr: 0.000050 loss_coarse: 0.001180 fine_loss: 0.001015 l_tex: 0.001070 coarse-p: 29.275758 fine-p: 29.933073 tex-p: 29.700859
+each iter time 0.59219 seconds
+pretraining Epoch: 0  step: 330000  lr: 0.000050 loss_coarse: 0.006515 fine_loss: 0.007189 l_tex: 0.010740 coarse-p: 21.860195 fine-p: 21.432579 tex-p: 19.689653
+each iter time 0.59720 seconds
+Saving checkpoints at 330000 to /scratch/jcu/ai_group/xsc_data/fine/flower/pre/pretraining...
+val_________________________psnr_coarse_27.450541______psnr_fine27.569524__psnr_tex_tex_27.603299_____time_74.858660
+pretraining Epoch: 0  step: 331000  lr: 0.000050 loss_coarse: 0.000939 fine_loss: 0.000930 l_tex: 0.001058 coarse-p: 30.270859 fine-p: 30.308205 tex-p: 29.752855
+each iter time 0.60003 seconds
+pretraining Epoch: 0  step: 332000  lr: 0.000050 loss_coarse: 0.001454 fine_loss: 0.001342 l_tex: 0.001377 coarse-p: 28.370257 fine-p: 28.718530 tex-p: 28.608034
+each iter time 0.59863 seconds
+pretraining Epoch: 0  step: 333000  lr: 0.000050 loss_coarse: 0.001318 fine_loss: 0.001307 l_tex: 0.015532 coarse-p: 28.796687 fine-p: 28.833675 tex-p: 18.087445
+each iter time 0.59801 seconds
+val_________________________psnr_coarse_27.460014______psnr_fine27.579402__psnr_tex_tex_27.593197_____time_74.838959
+pretraining Epoch: 0  step: 334000  lr: 0.000050 loss_coarse: 0.000767 fine_loss: 0.000728 l_tex: 0.006841 coarse-p: 31.146193 fine-p: 31.373991 tex-p: 21.648133
+each iter time 0.59557 seconds
+pretraining Epoch: 0  step: 335000  lr: 0.000050 loss_coarse: 0.000981 fine_loss: 0.000934 l_tex: 0.000966 coarse-p: 30.078490 fine-p: 30.292963 tex-p: 30.146968
+each iter time 0.59395 seconds
+Saving checkpoints at 335000 to /scratch/jcu/ai_group/xsc_data/fine/flower/pre/pretraining...
+pretraining Epoch: 0  step: 336000  lr: 0.000050 loss_coarse: 0.001332 fine_loss: 0.001267 l_tex: 0.001300 coarse-p: 28.751803 fine-p: 28.969160 tex-p: 28.856035
+each iter time 0.60209 seconds
+val_________________________psnr_coarse_27.519789______psnr_fine27.604307__psnr_tex_tex_27.644892_____time_74.783217
+pretraining Epoch: 0  step: 337000  lr: 0.000050 loss_coarse: 0.001148 fine_loss: 0.000960 l_tex: 0.000974 coarse-p: 29.395894 fine-p: 30.172566 tex-p: 30.108019
+each iter time 0.59117 seconds
+pretraining Epoch: 0  step: 338000  lr: 0.000050 loss_coarse: 0.002982 fine_loss: 0.002825 l_tex: 0.002885 coarse-p: 25.253641 fine-p: 25.487923 tex-p: 25.396723
+each iter time 0.59144 seconds
+pretraining Epoch: 0  step: 339000  lr: 0.000050 loss_coarse: 0.000718 fine_loss: 0.000682 l_tex: 0.000699 coarse-p: 31.431070 fine-p: 31.655830 tex-p: 31.548471
+/opt/ohpc/pub/apps/pytorch_1.6.0/lib/python3.7/site-packages/torch/nn/functional.py:1625: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+/opt/ohpc/pub/apps/pytorch_1.6.0/lib/python3.7/site-packages/torch/nn/functional.py:3121: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+each iter time 0.59644 seconds
+val_________________________psnr_coarse_27.486004______psnr_fine27.513656__psnr_tex_tex_27.543595_____time_74.809501
+pretraining Epoch: 0  step: 340000  lr: 0.000025 loss_coarse: 0.001562 fine_loss: 0.001329 l_tex: 0.002002 coarse-p: 28.059924 fine-p: 28.760453 tex-p: 26.983240
+each iter time 0.60077 seconds
+Saving checkpoints at 340000 to /scratch/jcu/ai_group/xsc_data/fine/flower/pre/pretraining...
+loading ['flower'] for validation
+==================
+['flower'], curr_id: image000, current coarse psnr: 27.481632, 
+current psnr: 27.463035, current ssim: 0.919880,current lpips: 0.128536,
+current psnr_tex: 27.466438,  current ssim_tex: 0.919643,current lpips_tex: 0.128576 
+
+==================
+['flower'], curr_id: image008, current coarse psnr: 27.291036, 
+current psnr: 27.621151, current ssim: 0.934275,current lpips: 0.115142,
+current psnr_tex: 27.580237,  current ssim_tex: 0.933788,current lpips_tex: 0.115220 
+
+==================
+['flower'], curr_id: image016, current coarse psnr: 25.642771, 
+current psnr: 25.709450, current ssim: 0.896000,current lpips: 0.128520,
+current psnr_tex: 25.710703,  current ssim_tex: 0.895703,current lpips_tex: 0.128559 
+
+==================
+['flower'], curr_id: image024, current coarse psnr: 30.621621, 
+current psnr: 30.507791, current ssim: 0.960949,current lpips: 0.080826,
+current psnr_tex: 30.423430,  current ssim_tex: 0.960528,current lpips_tex: 0.080917 
+
+==================
+['flower'], curr_id: image032, current coarse psnr: 30.823836, 
+current psnr: 31.131914, current ssim: 0.955901,current lpips: 0.089338,
+current psnr_tex: 31.005788,  current ssim_tex: 0.955208,current lpips_tex: 0.089419 
+
+==================
+['flower'],  
+running mean psnr_coarse: 28.372179, running mean psnr: 28.486668, running mean psnr: 0.933401, running mean lpips: 0.108472,
+ mean psnr: 28.437319, running mean ssim: 0.932974, running mean lpips: 0.108538, 
+
+496.392187833786
+Saving checkpoints at 340000 to /clusterdata/uqwxiang/xsc/fine/test/['flower']...
